@@ -1,0 +1,1048 @@
+ 26/06/2023
+====================
+          		
+
+                                	Project
+					  |
+			Domain( Banking, insurance, Telecom, Health Care )
+					  |
+			----------------------------------------------------------	
+			|							 |
+		Functional Requirements				Non Functional Requirements
+
+			
+
+
+Functional Requirements :
+========================
+
+	According to the client requirements, we whouls build/develop the product
+	i.e. Product functionality should be worked
+
+	1. Agile Methodlogies
+	2. Understand the project requirements
+	3. Design Architecture
+		|-Logical Architecture
+		|-Physical Architecture		
+
+	4. Project Technical flow
+
+	5. Develop the Project
+		|-developers will develope the product using latest tech stack in market
+
+	6. Testing the Application
+	7. Deploy the application into production
+
+ Technology Stack:
+ =================	
+
+ 1. Security : 
+
+	a. Implement SSL - Http to Htts(secure) - How SSL internally will work
+
+		1. keys, keystore, public key, private key, ca,symmetric encryption, asymetic encryption..
+
+	b. Authentication : validate the credentials (username & password)
+
+		-->The processing verifying the user credentials is called Authentication
+		
+			a. SAML
+			b. OAUTH 2.0
+			c. AADB2C - Azure Active Directory Business to Customers
+			d. Basic Digest 
+			:
+
+	c. Authorization :  RBAC - Role Based Access Control
+
+		'Based on the role of the application, user will access the features'	
+
+		Some Of the Roles  - normal user, super user, admin user, manager, ..etc
+		
+			
+ 2.  Business Logic : Core Java  - JDK8 features - To improv the logical thinking skills
+
+ 3.  Distributed Technologies : Restful services, JAXB, JASON..etc
+
+ 4.  Spring Boot, and Microservice Architecture
+			|- microserivce - < 500 ms ===> Performance
+			|- Availability
+			|- Maintaince
+			|- Security
+			|- Scaling
+ 5. Spring Modules - core, mvc, jdbc, batch, security...etc
+
+ 6. Cloud Providers  :  AWS, Azure, GCP, Alibaba, Oracle, Openshift..etc
+
+ 7. Containerization : Docker, Kubernetes
+
+ 8. Event Driven  :  Kafka, JMS..etc
+
+ 9. Redis Cache
+
+ 
+ 10. Java Realtime Tools : ( No prerequisite is required to understand these tools)
+
+				Theory + Practicals + How to implement in the project
+
+	
+	1. Maven					From next batch : 8,000/
+	2. Git
+	3. Log4J
+	4. ELK (Kibana)
+	5. Junit
+	6. Mockito & Powermockito
+	7. Java Debugging
+	8. Code Coverage : JACOCO, Cobertura				20 +  Java Realtime Tools
+	9. Code Quality  : PMD | SonarQube
+	10. Security Library scan : Snyk
+	11. Swagger
+	12. Postman						===================
+	13. CICD pipelile : Jenkins | Azure ADO 		Project = FR + NFR
+	14. Putty						====================
+	15. Winscp | Filezilla					
+	16. Jemter  
+	17. Thread Pool & Jdbc Connection poolings
+	18. Agile - Scrum - JIRA or Rally
+	19. Java Coding Standards
+	20. Resume Prepration
+	21. Project FAQ's
+	
+ Non Functional Requirements - How long this product can sustain in the market
+
+	-->What is the load it will be users
+	-->How is your security
+	-->How is the quality
+	-->Performance
+
+	   ..........
+
+
+==============================================27/06/2023================================================
+
+For every project in realtime,we have different phases
+
+					Project
+					  |
+					SDLC
+					  |
+			--------------------------------------------
+			|					|
+			watermodel			       agile-scrum	
+
+
+	---------------------------------------------------------------------	
+		Analysis ---> Design ---> Build ---> Testing ---> Production
+	-----------------------------------------------------------------------
+
+
+Analysis : 
+
+Requirements:
+
+	1. share point  :  msword or excel
+	2. agile scrum board - jira/rally
+
+Design :
+=======
+
+		Teams ---- |-database team	------ ER diagram    
+			   |-development team   ------ UML diagram
+
+	3. visio or draw.io or rational rose
+
+
+Build Phase:
+===========
+
+	4. build tools : ANT | Maven | Gradle
+
+	5. Source Code Repository :  SVN | GIT, Github | BitBucket
+
+	6. Unit Testing - Junit (ex : 5 java classes, tested 5  java classes using junit )
+
+	7. Code Coverage (Cobertura or Jacoco) : The process of finding no.of lines tested in all the java classes
+
+		ex :   code coverage pecentage :  60/100 = 60% 
+
+	( note : client expectation is 80%. i.e. 80 lines code should be tested out of 100 lines ) 
+
+      8. Code Quality Tools : PMD | SonarQube | Checkmarx | Veracode | findbugs ..etc 
+
+		duplicate code or boiler plate code
+		too many lines in class or methods
+		are we creating object inside loop
+		are you declare exceptions properly
+		referring objects using reference names
+		:
+		:		
+	
+	9. Log4J : To log the informaiton
+
+	10.  Logging Monitoring Tools : Splunk | ELK | Data Dog | App Dynamics
+
+	11. Different Environment : 
+
+		a. non production environments
+		b. production environment
+	
+	Most of the applications would be deployed into remote servers  to access the application
+        for everyone.
+
+	Remote Servers  = On prime servers or Cloud Providers ( AWS, GCP, AZURE..etc)
+
+	If we want connect remote server,we must required 
+
+	12. Linux Commands
+
+	13. Putty and Winscp - These tools are used to connect with remote server and perform some
+			       operations
+
+	14.  Userguide documentation : Swagger  | Confluence | wiki
+
+	15.  Test the apis' :  Postman
+
+	16. Deploy the application into remote servers : 
+
+		CICD :  Jenkins -- deploy the application in seconds
+
+		Continuous Integration  -- compile
+					   execute the unit testcase
+					   if code covergae < 80 then stop build and send error
+		
+
+
+		Continous Deployment
+
+
+	 Note :  Build and Deploy the application in seconds
+
+	
+
+ Testing Phase:
+ ==============
+
+	17. Test the application: 
+
+		Bug Tracking tools like Jira or bugzilla or Rally..
+
+	18. Jmeter : To do the load testing
+
+
+Production Phase:
+==================
+
+   monitor the application in 24/7, make sure if any issues would there we need to fix them asap
+
+Misslaenous Tools:
+==================
+
+	19. java coding standandards
+	20. jaa debugging
+	21. java mail api
+	22. hashi corp key valut
+
+ =================================29/07/2023=================================================
+
+In Realtime, most of the modern products designed using microservice architecture
+
+Monolythic application:
+======================
+
+	#1. performance is not good
+	#2. not scalable
+	#3. build and deploy will take so much time
+	#4. If any one service modified it will be impact for all the otherservice
+
+
+microservice architecture:
+==========================
+
+	#1. Performance will be very high : <500 ms
+	#2. It should be scalable
+	#3. Build and Deployment would be less than minute
+	#4. availability - application is up & running ---------- 100% ----- 99.9999%
+	#5. mainatainability
+	#5. less testing time
+	
+				Project
+						  |
+			-----------------------------------------------
+			|					 |
+		    Web Application				Distributed Application
+														
+	|-To develop web appliation ui required		  |-no presentation layer(UI) is required							   
+	  React, Angular				  |-Develope only microservices/apis using
+
+							   spring boot and microserviecs architecture						
+	Front End Engineer				  Backend Engineer
+
+
+Full Stack Engineer  =  FE (HTML, CSS, TS, Angular/React, MongoDB)  +  BE (JDK8, Spring, Spring boot, 										
+	
+
+JDK8 Stream : https://www.youtube.com/watch?v=TiCFAfzt9TY&t=895s
+JSON : https://www.youtube.com/watch?v=_k_uCWWbccg
+
+
+
+ =================================30/06/2023============================================
+
+	-->Banking Domain					
+                   
+                       There are different modules are there in every banking domain
+
+			#1. Accounts
+			#2. Fund Transfer
+			#3. Cards			PortFolios or accounts
+			#4. Loans				
+			#5. Offers				
+			#6. Others
+
+
+	-->The requirements will be varied from module to module
+	-->based on business requirements, architects will design the architecture	
+
+ Cards : 
+
+	Types of cards 
+
+		-->Credit Card 
+		-->Debit Card
+		-->Prepaid Card		
+
+	Credit Card Types : 
+
+		#1. Reward Card
+		#2. Rebate Card
+		#3. Petrol Card
+		#4. Amazon Card
+		#5. PVRs movie card
+		:
+		:
+		:
+
+     Card Providers : There are many banks will provide the cards like 		Card Issuers : 
+										    |-visa
+		ICICI bank							    |-master
+		HDFC bank		ready to issue the credit card		    |-Rupay	
+		Yes Bank
+	        American Express Bank ==> Customer --> Customer will  pick one card out of all the cards
+		HSBC bank								  
+		Key bank								   
+		Barclays Bank
+		:
+		:
+		100
+
+     
+ Customer will find/analysis on all the cards, which card will have good offers	
+
+
+	ICICI bank  -- for every 100 rs ------ 1 reward point   --- book my show buy one ticket, free another
+	HDFC bank   -- for every 150 rs ------ 2 points	        --- upto 100 rs discuount
+	Amex bank   -- for every 100 rs ------ 2 points
+	Citi bank   -- for every 100 rs ------ 1 point + 1 % cashback
+		
+
+ In bank applcations, there different scenarios like 
+
+	#1. Realtime Response :  we will get response immediately
+
+	#2. Non Realtime  : Response will get not immediately. i.e. asynchronous programing 
+
+	#2. Batch Process : To improve the application performance, cost and update transaction in non
+			     business hours	
+
+ =================================29/07/2023============================================
+Project Domain : Banking
+
+Project Name   : Card Credit Limit Enhancement (CCLE)
+
+Client 	: Any Bank
+
+Duration : 6 months or 1 year
+
+Description    :  
+
+	The main goal of CCLE application, customers can increase their credit limit of the credit card
+	Based on the usage of card bank identify the targetted customer to increase their credit limit
+
+Requirements:
+=============
+
+	#1. Need to find the credit card usage percentage
+
+	#2. Based on the percentage usage of the creditcard, bank will generate the promocode/offercode
+
+	#3. send promocode/offercode to the customers via email or sms
+
+			a. how to send email notification
+			b. how to send sms notificaiton
+
+	
+	Note : The above job will be executed every day midnight night (12:00 AM IST), non business hours.
+		i.e. using spring batch, batch jobs will be executed, these batch jobs will take care
+	        to send email and sms notifications to all the targetted customers
+
+	
+Login into Bank Application:
+============================
+
+	#1. Customer will Login into application after authentication and authorisation will be done
+
+	#2. Customer will click on credilimit enhancement link, it will redirect to promocode page
+
+	   a. enter the promocode, need to perform validations like promocode length , expired, already used
+
+
+ =================================05/07/2023============================================
+
+Java Coding Standards:
+=====================
+
+	-->In realtime, once develop the project and move to maintaince or support
+	-->80% of the projects will be running on maintainance/support projects
+	-->Make sure our code should readable, maintainble, reusable, so that it would be helpful for 
+	   new enhancement of the projects
+
+		 Bad Code :				 New Enhancements with Bad code:		
+		==========				=================
+
+            No coding standards				It will take 1 week time instead of 1 hour time.
+
+	    Perfromance issues 					
+
+												
+  Most of the clients looking for quality code, make sure our code should be 
+
+	1. readable    |
+	2. maintainable|=========> SOLID Principles : https://www.youtube.com/watch?v=oMQtcVMFbn8&t=29s
+	3. extendable  |
+	4. reusable    |
+	:
+	:
+
+As developer should follow sun microsystem/oracle specification on coding standards and also must implement the
+SOLID Principles in the project development 
+SOLID principles are object oriented approach that applied to software architecture and design
+
+	S ---- SRP -- Single Responsible Principle	:  Class should have only one responsibility		
+	O ---- OCP -- Open Closed Principle		:  Open for Extension but closed for Modifying  .ie use Inheritence		  
+	L ---- LSP -- Liskova Substitution Principle	:  Objects of Super class can replace with  objects of a  sub class	
+                                                            Parent p= new Child();	  
+	I ---- ISP -- Interface Seggregation Principle	: We should not expose methods  it doesn't need		  
+	D ---- DIP -- Dependency Inversion Principle		  	 
+
+
+Java Coding Standards:
+======================
+
+  For every java application must follow the below structure
+
+	Licence Information
+	Package Statement
+	Import Statement
+	Description about class/interface
+	Declare class/interface
+
+
+
+Comments: 	
+=========
+
+	-->Comments are used for readability and understandability of the code
+	-->There are 2 types of comments
+
+ 		1. Implementation Comments  2. Documentational Comments
+
+
+1. Implementation Comments :
+   =========================
+
+-->These comments are used to  declare licence information, business logic description..etc
+-->These comments will be used outside and inside of classes, inside of methods but not out side of methods
+-->There are 3 types comments
+
+		i. single level comments :  /*  ----- */
+	       ii. mutil level comments  :  /*
+					     * ------ 
+					     * ------	
+					     */
+	      iii. trail comments 	 :  /** ------ */	 	
+      	
+
+2. Documentational Comments:
+   =========================
+
+-->These comments are used description of the classe, interfaces, methods, variables/properties ..etc
+-->These comments will be used outside and inside of classes, outside of the methods but not inside of methods
+-->There are 2 types comments
+
+		i. single level comments :  /**  ----- */
+	       ii. mutil level comments  :  /** 
+					     * ------ 
+					     * ------
+					     */
+
+-->These comments will be extracted into HTML documentation. i.e.  Java SE API documentation
+
+Example: 
+
+/* @CopyRight 2023, Tesco bank pvt ltd. All rights are reserved, we whould disclose the information to outside
+
+*  otherise terms and conditions will apply.
+
+*/
+
+package com.tesco.cards;
+import java.util.List;
+
+/**
+   @Author : Sreenu
+   Description : This class is used to provide credit card information	
+*/		
+public class CreditCardInfo{
+
+
+/**
+	Description :
+        Param : 
+	Result :
+*/
+pubic List<Cards> getCardInfo(CardRequest request){
+
+	//checking primary cardnumber
+	if( 00 != request.getCardNum().substring(13,15)){
+		
+		
+	}
+}
+}
+
+ =================================07/07/2023============================================
+
+
+#1. How to avoid NullPointerException?
+
+Sol :  Object should not be NULL
+
+  1. Always check null before use the object
+
+ Sol :  class A{		  class B{				B b = new B();
+									  b.setStatus("");
+	   B b;			    String status;			  b.setAddress("");
+				    String address;			A a = new A();
+	   String oid;		    C c;				  a.setOid("");	
+	   String name;		  }					  a.setName("");
+	   String desc;							  a.setDesc("");
+	   //setters and getters					  a.setB(b);
+	}																				C c = new C();											c.setQuantity(2)
+								
+	 B b = a.getB();
+
+	 if( b != null && b.getAddress() != null ){
+
+		String address = b.getAddress();
+	}
+
+	 if( b != null && b.getC() != null && 0 !=c.getQuanity() ){
+
+		int quantity = c.getQuanity();
+	}
+
+2. Use constant first while comparing the data with object
+
+	if( a.getOid().equals("12345") ){
+
+					 //bad code
+	}
+	
+  
+
+	if( "12345".equals(a.getOid()) ){
+
+		----			 //good code
+	}
+		
+
+
+3. always try to write the code in less no.of lines
+
+  if(  a > b ){
+					return a > b ? a : b
+    return a;
+  else{
+       return b;
+    }
+  
+
+4. Always recommeded interface reference should be implementation class
+
+	  ArrayList list = new ArrayList(); // bad
+
+	  List list = new ArrayList();// correct
+
+5. Per line no.of characters are 60, if the no.of characters will be exceed then split into new line
+
+   public void getCreditCardInformation(String cardnum, String clientId, String reqId,
+					String  address, String messageTs){
+
+     
+
+ }
+
+
+6. Per class no.of line are 600 is recommended, if it is reaching morethan 600 then try to split into 
+   new class
+
+	i.e. we should use one of solid principle is SRP (Single Responsible Principle)
+
+7. Per method no.of lines are max 60-70, if it is reaching morethan 70 then try to split into new method
+
+	
+ctrl+shift+f - foramte the code
+
+
+======08/07/2023 & 09/07/2023  Git Topics Seperate File for Tools Created=====================
+
+
+===================================================================================================
+
+=================================10/07/2023============================================
+	Project
+					   	   |
+				------------------------------------------------
+				|						|
+			     web application				   Distributed Application
+
+		-->Presentation Layer is required			 -->Presentation is not required
+
+
+ Distributed Application:
+ ========================
+
+-->We can develop the distributed applications using web services, rest api, spring boot, microservices
+
+-->Distributed Applications must follow the Layered Architecture (LA)
+
+-->In LA there are 3 layers
+
+	1. Controller Layer		2. Service Layer 		3. Integration Layer
+
+
+
+To Design the rest api's, we should follow the below standards
+
+#1. endpoint url names are nouns and not verb
+
+#2. always include metadata, so that we can track the request easily
+
+#3. must implement service userguide documentation, i.e. swagger 
+
+#4. it should be scalable and 
+
+#5. Performance is very good . i.e. response time should be <500 ms
+
+#6. Implment proper response status codes like 200, 400, 401, 404, 500, 503, 504..etc
+
+
+Http : 						Rest Principles : 
+	-->Request Formate				-->Representation
+	-->Response Formate				-->Exception
+	-->Methods
+	-->Status Code
+	
+
+=================================11/07/2023============================================
+
+-->Distributed Application - Layered Architecture or Technical flow
+-->In Layered Architecture, there are 3 layers
+
+	   a. Controller Layer		b. Service Layer   c. Integration Layer
+
+
+
+a. Controller Layer :	This layer is used to manging the client/consumer request and response
+   ================= 
+
+	1. Receive the request in json/xml formate from consumer
+	2. convert java object using either JAXB or JACKSON
+		XML ---> JAXB ---> XML to Java Object
+		JSON --> JACKSON --> JSON to java object
+	3. apply the basic validation
+	4. send request to service layer
+
+At controller layer 
+
+For every request convert json to java object
+For every response convert java object to json
+
+b. Service Layer : This layer is used to perform the business logic/operation
+   ==============
+
+	1. Get the request object from controller
+	2. Apply the business logics like 
+
+		a. data transformation
+		b. data manipulation
+		c. sorting, pagination
+		d. sequnetial calls
+		e. parallel calls
+
+	3. Call integration layer
+
+
+c. Integration Layer : 	Integration layer is used to integrate with backend systems/external systems
+  ===================
+
+	If the backend is Database --------------- write dao class to connect to database
+	If the backend is service  --------------- write service client code to connect to database
+	If the backend is kafka server  --------------- write kafka client code to connect to database
+
+   Note : We may call these backend systems either sequentially or parallelay
+	
+  
+  
+ project structure for creditlimit-enquiry-service
+
+
+ creditlimit-enquiry-service (git repo name)
+	|-src	
+	   |-main
+		|-java					Client Name : tesco bank
+	   	|-resources
+	   |-test
+		|-java			package name : org.clientname.featurename or com.clientname.featurename
+		|-resources
+
+	|-pom.xml 	
+
+				Why do we need these many classes? can we write all into single class?
+				Sol :  SOLID ------> Single Responsible Principle (SRP)
+					"Every class should have its own responsibility"
+
+
+
+	
+=================================12/07/2023============================================
+ creditlimit-enquiry-service				
+	com.tesco.enquiry						
+		CreditLmitEnquiryApplication.java		
+	com.tesco.enquiry.controller
+		CreditLmitEnquiryController.java
+		CreditLmitEnquiryAdvice.java
+	com.tesco.enquiry.config
+		CreditLimitEnquirySwaggerConfig.java
+	com.tesco.enquiry.validator
+		CreditLmitEnquiryValidator.java
+	com.tesco.enquiry.builder
+		CreditLmitEnquiryRequestBuilder.java
+		CreditLmitEnquiryResponseBuilder.java
+	com.tesco.enquiry.service
+		ICreditLmitEnquiryService.java
+		CreditLmitEnquiryServiceImpl.java
+	com.tesco.enquiry.intg.dao
+		ICreditLmitEnquiryDao.java
+		CreditLmitEnquiryDaoImpl.java
+	com.tesco.enquiry.model
+		CreditLimitRequest.java
+		CreditLimitResponse.java
+		EnquiryDaoRequest.java
+		EnquityDaoResponse.java
+	com.tesco.enquiry.intg.svcclient
+		ICardVerifyServiceClient.java
+		CardVerifyServiceClientImpl.java
+	com.tesco.enquiry.exception
+		CreditLmitEnquiryRequestInvalidException.java
+	com.tesco.enquiry.util
+		CreditLmitEnquiryEnum.java
+		CreditLmitEnquiryConstant.java
+		CreditLmitEnquiryUtil.java
+
+
+
+=================================14/07/2023====No Notes PaintNotes Available===============================
+
+=================================15/07/2023====Git Notes Updated in Seperate File=================
+
+
+=================================16/07/2023====GitNotes Updated in Seperate File===============
+
+
+=================================17/07/2023============================================
+creditlimit-enquiry-service:
+============================
+
+   api name : enquiry
+   end point : /enquiry
+   method : Get
+
+Request : 
+   Headers : 
+
+	client-id				Note : Headers are used more information about request
+	channel-id				       i.e. Headers will provide the metadata of the
+	message-timestamp			       request	
+	request-id/correlation-id
+
+ Payload : 
+
+	promocode/offercode
+
+ Response :
+
+	cardnumber
+	cvvnum
+	nameoncard
+	availableAmount
+	increaseAmount
+	enhancementPercentage
+
+=================================18/07/2023============================================
+-->Happy Path, Error Path
+
+-->Irrespective of type of paths, the either of the response (success/failure) always would be in json only
+
+
+					
+				     ----------------------------------------------------------		
+Client =======> Request  =======>    Controller ------> Service ------> Dao --------> Database
+		Response <=======	      <------        <------	  <--------
+				      ----------------------------------------------------------
+
+
+
+Rest api/microservice testing tool
+
+How to test rest api/microservice?
+
+Sol :  postman
+
+
+http://localhost:9090/v1/enquiry/87879899		
+
+client_Id:web
+channel_Id:online
+message_ts:20-07-2023
+request_Id:abc123xyz
+
+{
+    "cardNum": "5218765443456876",
+    "cvv": "123",
+    "availableAmout": 100000,
+    "increaseAmount": 50000,
+    "increasePer": 0.5
+}
+	
+
+19/07/23 : No class 
+
+=================================20/07/2023============================================
+---------------------------------------------------------------------------------
+public class CreditLimitEnquiryController                                               
+{                                                                                                                            
+ public EnquiryResponse enquiry(String promocode)
+{
+creditLimitnquiryValidator.validateRequest(creditLimitRequest);
+
+}
+}
+--------------------------------------------------------------------------------
+public class CreditLimitEnquiryValidator                                             
+{                                                                                                                            
+ public void enquire(EnquireRequest enquiry) throws CreditLimitEnquiryRequestInvalidException{
+
+if(request.getPromocode()!=null || request.getPromocode().length()!=null )
+{
+throw new  CreditLimitEnquiryRequestInvalidException("enq001","promocode invalid")
+}
+//todo :Write all user defined exception
+}
+}
+-----------------------------------------------------------------------------------
+public class CreditLimitEnquiryRequestInvalidException     extends Exception                                         
+{                                                                                                                            
+ private String respCode;
+private String respMsg;
+
+public CreditLimitEnquiryRequestInvalidException     (String  respCode String respMsg)
+{ 
+this.respCode=respCode;
+this.respMsg=respMsg;
+}
+-----------------------------------------------------------------------------------
+21 /07/2023 : No class
+=================================22/07/2023============================================
+
+TestCase-01 : Enquiry success scenario
+
+http://localhost:9090/v1/enquiry/87879899
+
+client_Id:web
+channel_Id:online
+message_ts:20-07-2023
+request_Id:abc123xyz
+
+
+Normal Response : 					EnquiryResponse.java
+							|-StatusBlock.java
+							    -String respcode
+{						            -String respMsg
+    "cardNum": "5218765443456876",			|-CustomerInfo.java
+				                             -long availablepts
+    "cvv": "123",
+    "availableAmout": 100000,
+    "increaseAmount": 50000,			StatusBlock  statusblock = new StatusBlock();	
+    "increasePer": 0.5				  statusblock.setRespCode("0");
+}					          statusblock.setRespCode("success");	
+								
+						CustomerInfo customerInfo = new CustomerInfo();			
+                                                  customerInfo.setAvailalePts(10000.00):
+							
+							
+						EnquiryResponse enquiryResp = new EnquiryResponse();						
+						  enquiryResp.setStatusBlock(statusblock);
+						  enquiryResp.setCustomerInfo(customerInfo);
+
+		
+                                                <----------Json <---JACKSON<---enquiryResp Object	
+
+
+
+  {
+    "statusBlock": {
+        "respCode": "0",
+        "respMsg": "success"
+    },
+    "customerInfo": {
+        "cardNum": "5218765443456876",
+        "cvv": "123",
+        "availableAmout": 100000,
+        "increaseAmount": 50000,
+        "increasePer": 0.5
+    }
+}
+
+TC-02 : invalid promocode scenario
+
+http://localhost:9090/v1/enquiry/87879899
+
+client_Id:web
+channel_Id:online
+message_ts:20-07-2023
+request_Id:abc123xyz
+
+
+{
+    "respCode": "enq001",
+    "respMsg": "Invalid Promocode",
+    "availableAmout": 0,
+    "increaseAmount": 0,
+    "increasePer": 0.0
+}
+
+{
+    "statusBlock": {
+        "respCode": "enq001",
+        "respMsg": "Invalid Promocode"
+    }
+}
+
+
+
+TC-03 : invalid client scenario
+
+http://localhost:9090/v1/enquiry/87879899
+
+client_Id:web
+channel_Id:online
+message_ts:20-07-2023
+request_Id:abc123xyz
+
+
+{
+    "respCode": "enq002",
+    "respMsg": "Invalid client id",
+    "availableAmout": 0,
+    "increaseAmount": 0,
+    "increasePer": 0.0
+}
+
+
+For success and failure, api is returning http status is 200
+
+We need to implement ResponseEntity for each response category
+
+	
+	Request Invalid/Data Error  ---- 400 -- bad request
+
+	uri path is invalid 	    ---- 404 -- resource not found	
+      (asking invalid information)
+
+
+	internal server error 	   ----  500 -- service is down
+
+
+			Integration Layer validations
+			             |		
+			
+ What type of validations will do at integration layer ( database or any other system )
+
+	 respcode  	respMsg			
+
+	   0		 success	
+
+	  100		promocode is expired		|	
+							|
+	  101		promocode is already used	|
+							|=========>Data Error =======> BusinessException
+	  102		promocode is invalid		|
+							|
+	  103		promocode not found		|
+							|
+	  104		you are not eligble to		|
+			enhance credit limit
+
+	  105		client id invalid	
+
+
+	 111		internal server error		|
+							|=========>System Error =======> SystemException
+	 222 		database timeout		|
+
+	
+	
+Based on business requirements these exceptions classified into 2 types
+
+	1. BusinessException  -------- Data Errors
+
+	2. SystemException    -------- System Errors 	
+
+			
+
+ To call/invoke the service by the consumers, consumer must know the below things
+
+
+	#1. how to call the service
+
+	#2. what is the request and response should send
+
+	#3. what is the data types of request and response
+
+	#4. what is the data formate like xml, json, text..etc
+
+	#5. what is the http method
+	
+	#6. what are the list of error codes which will be send by api's
+
+	#7. sample request and response for sucecss and failure scenarios
+
+	:
+	:
+
+ consumer must know all the above details to call the service. 
+
+ These details will be availble in swagger documentation
+
+
+=================================31/07/2023============================================
